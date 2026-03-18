@@ -1,0 +1,15 @@
+{
+	"name": "deflate",
+	"tree": {
+		"$className": "DataModel",
+		"ServerScriptService": {
+			"$ignoreUnknownInstances": true,
+			"$path": "roblox/server"
+		},
+		"ReplicatedStorage": {
+			"deflate": {
+				"$path": "src"
+			}
+		}
+	}
+}
