@@ -1,4 +1,4 @@
-local function bitstreamwriter(data: buffer)
+local function bitstreamwriter(stream: buffer)
 	local write_bit_offset = 0
 	local write_byte_offset = 0
 	local write_register = 0
@@ -8,8 +8,7 @@ local function bitstreamwriter(data: buffer)
 			return
 		end
 
-		buffer.writeu8(data, write_byte_offset, write_register)
-
+		buffer.writeu8(stream, write_byte_offset, write_register)
 		write_register = 0
 	end
 
