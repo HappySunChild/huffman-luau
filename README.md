@@ -1,5 +1,5 @@
 # huffman-luau
-An implementation of huffman coding for Luau buffers.
+An implementation of huffman coding for Luau buffers. Has support for arbitrary symbol encoding and decoding.
 
 ## Example Usage
 ```luau
