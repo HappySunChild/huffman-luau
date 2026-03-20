@@ -3,7 +3,7 @@ An implementation of huffman coding for Luau buffers. Has support for arbitrary 
 
 ## Example Usage
 ```luau
-local huffman = require("../src")
+local huffman = require("path/to/huffman")
 
 local sample_text = "Hello world!"
 local tree = huffman.create_tree_from_string(sample_text)
